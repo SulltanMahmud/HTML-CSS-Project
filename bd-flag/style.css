@@ -14,17 +14,18 @@ body {
 }
 
 .flag {
-  width: 700px;
+  width: 1200px;
   height: 400px;
   background-color: green;
   position: relative;
 }
 
 .flag::after {
-  content: "";
-  top: 90px;
-  left: 230px;
+  content: ""; 
   position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   width: 230px;
   height: 230px;
   border-radius: 100%;
