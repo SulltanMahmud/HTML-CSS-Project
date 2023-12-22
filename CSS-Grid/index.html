@@ -7,18 +7,28 @@
 
     <style>
         .container{
+            background-color: antiquewhite;
+            height: 100vh;
             display: grid;
-            grid-template-columns: repeat(5,1fr);
-            grid-template-rows: repeat(2,1fr);
+            grid-template-columns: repeat(5,100px);
+            grid-template-rows: repeat(2, 100px);
+           
+            
             grid-gap:3px;
+             
         }
 
-        div{
-            background-color: bisque;
-            height: 200px;
-            text-align: center;
-            font-size: 34px;
-        }
+      .grid-item {
+        background-color:rebeccapurple;
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+      }
+
+      .seven{
+        justify-self: center;
+      }
 
         
 
@@ -71,16 +81,16 @@
       <div class="grid-item footer">Footer</div>
        -->
    <div class="container">
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
-    <div>4</div>
-    <div>5</div>
-    <div>6</div>
-    <div>7</div>   
-    <div>8</div>   
-    <div>9</div>   
-    <div>10</div>   
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item">6</div>
+    <div class="grid-item seven">7</div>   
+    <div class="grid-item">8</div>   
+    <div class="grid-item">9</div>   
+    <div class="grid-item">10</div>   
        
     </div>
   </body>
