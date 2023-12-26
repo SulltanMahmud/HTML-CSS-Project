@@ -6,4 +6,4 @@
 -> knowledge-Timeline: https://spontaneous-blini-e9ddbd.netlify.app/
 -> Dropdown-Menu : https://whimsical-macaron-c087e1.netlify.app/
  -> Newsgrid Website  : https://leafy-nasturtium-2b6399.netlify.app/
- -> Portfolio Website : https://bejewelled-gingersnap-e7f9fc.netlify.app/
+ -> Portfolio Website :  https://bejewelled-gingersnap-e7f9fc.netlify.app/dist/
